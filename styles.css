@@ -26,7 +26,7 @@ body{
 	font-weight: 400;
 	color: #FFFFFF;
 	line-height: 30px;
-
+	letter-spacing: 0.2px;
 
 	margin: 0;
 }
@@ -334,7 +334,7 @@ body{
 	background-color: #AAAAAA;
 	height: 2px;
 }
-.item__price{
+.menu .item__price{
 	position: relative;
 	top: -15px;
 	grid-row: 2/3;
@@ -344,4 +344,180 @@ body{
 	font-size: 30px;
 	line-height: 1.4;
 	color: #292E36;
+}
+
+/* Testimonial */
+.testimonial{
+	background-color: #292E36;
+}
+.testimonial__inner {
+	padding-top: 140px;
+}
+.testimonial__header {
+	height: 27px;
+	width: 141px;
+	border-bottom: 1px solid #E1B168;
+	border-top: 1px solid #E1B168;
+
+	font-family: 'Josefin Sans', sans-serif;
+	color: #FFFFFF;
+	font-size: 15px;
+	line-height: 22.5px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 3px;
+	padding-top: 3px;
+}
+.testimonial__title {
+	color: #FFF;
+	font-size: 40px;
+	line-height: 56px;
+
+	margin-bottom: 8px;
+	margin-top: 12px;
+}
+
+.review__item {
+	width: 40%;
+	padding-left: 40px;
+	background-color: #343942;
+	margin-top: 80px;
+}
+.review__info {
+	display: flex;
+}
+.review__img {
+	position: relative;
+	margin-right: 30px;
+}
+.review__photo {
+}
+.review__icon {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.review__name {
+	font-size: 30px;
+	line-height: 42px;
+	font-family: 'Cormorant Infant', serif;
+	margin-top: 20px;
+}
+.review__city {
+	color: #E1B168;
+}
+.review__text {
+	font-size: 24px;
+	line-height: 37.5px;
+	letter-spacing: 0.25px;
+	font-family: 'Cormorant Infant', serif;
+	border-top: 1px solid #797E89;
+	padding-top: 30px;
+	margin-top: 20px;
+	margin-right: 40px;
+}
+.testimonial__photo{
+	margin-top: 120px;
+	margin-bottom: -10px;
+}
+
+/* OFFERS */
+.offers__inner {
+	padding-top: 140px;
+	color: #292E36;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.offers__heading {
+	color: #292E36;
+	font-size: 15px;
+	line-height: 1.5;
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: 3px;
+	border-top: 1px solid #E1B168;
+	border-bottom: 1px solid #E1B168;
+	height: 27px;
+	width: 78px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 3px;
+}
+.offers__title {
+	color: #292E36;
+	font-size: 40px;
+	line-height: 1.4;
+
+	margin-bottom: 8px;
+	margin-top: 12px;
+}
+.offers__text {
+	color: #555555;
+	margin: 0;
+}
+.offer__wrapper{
+	margin-top: 40px;
+	display: flex;
+	gap: 30px;
+}
+.offer__item {
+	display: flex;
+	padding: 55px 27px 55px 27px;
+}
+.offer__item.item1{
+	background-image: url("img/Offers/background.jpg");
+}
+.offer__item.item2{
+	background-image: url("img/Offers/bg-2.jpg");
+}
+.item__content {
+	width: 50%;
+	/* padding-left: 27px;
+	padding-top: 55px; */
+}
+.item__cost {
+	position: relative;
+}
+.item__icon {
+}
+.offers .item__price {
+	position: absolute;
+	top: 10px;
+	left: 40px;
+	z-index: 1;
+
+	font-size: 60px;
+	font-family: 'Cormorant Infant', serif;
+	line-height: 1.1;
+}
+.item2 .item__price{
+	color: #FFF;
+	left: 50px;
+}
+.item__sale {
+	font-size: 15px;
+	line-height: 1.5;
+	letter-spacing: 4.5px;
+	text-align: center;
+	border-top: 1px solid #292E36;
+	border-bottom: 1px solid #292E36;
+	width: 190px;
+	height: 27px;
+	padding-top: 3px;
+
+	margin-bottom: 8px;
+}
+.item__name {
+	margin-bottom: 5px;
+	color: #292E36;
+	line-height: 140%;
+	font-family: 'Cormorant Infant', serif;
+
+}
+.offers .block__text{
+	padding-left: 8px;
+	margin-top: 20px;
+}
+.item__image {
+	width: 50%;
 }
